@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 3
+names: ['cat', 'dog', 'rabbit']
+
+roboflow:
+  workspace: awsskku-be2mu
+  project: animals2-vyag3
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/awsskku-be2mu/animals2-vyag3/1
